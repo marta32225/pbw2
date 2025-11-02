@@ -1,0 +1,10 @@
+#Turn Rewrite Engine On
+RewriteEngine On
+
+#Remove .php extension form produk.php
+RewriteRule ^produk/?$ object/produk.php [NC,L]
+RewriteRule ^download$ download.php [NC,L]
+
+#Rewrite URL
+RewriteRule ^produk/([0-9]+)/?$ object/produk.php?id=$1 [NC,L]
+
