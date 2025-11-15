@@ -6,7 +6,7 @@ RewriteRule ^produk/?$ object/produk.php [NC,L]
 RewriteRule ^download/?$ download.html [NC,L]
 RewriteRule ^materi/?$ materi.html [NC,L]
 RewriteRule ^3P42A/?$ TK3P42A.html [NC,L]
-RewriteRule ^3P43A/?$ TK3P43A.html [NC,L]
+RewriteRule ^kelasb/?$ TK3P43A.html [NC,L]
 
 #Rewrite URL
 RewriteRule ^produk/([0-9]+)/?$ object/produk.php?id=$1 [NC,L]
