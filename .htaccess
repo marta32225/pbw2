@@ -8,6 +8,8 @@ RewriteRule ^download/?$ download.html [NC,L]
 RewriteRule ^materi/?$ materi.html [NC,L]
 RewriteRule ^3P42A/?$ TK3P42A.html [NC,L]
 RewriteRule ^ujian/?$ ujian.html [NC,L]
+RewriteRule ^materi/ci/?$ codeigniter.html [NC,L]
+
 
 #Rewrite URL
 RewriteRule ^produk/([0-9]+)/?$ object/produk.php?id=$1 [NC,L]
